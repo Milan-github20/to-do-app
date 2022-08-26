@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import TodoContainer from './components/TodoContainer';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Main from "./Main";
+import Pacijenti from "./Pacijenti/pacijenti";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <TodoContainer />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Main />
+    <Pacijenti />
+  </React.StrictMode>
 );

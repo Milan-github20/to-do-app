@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.div--backgorund_popup {
+  width: 23vw;
+  background-color: rgba(218, 219, 220, 1);
+  margin-top: 6rem;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  flex-direction: column;
+  position: fixed;
+}
+
+.div--popup_modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 19rem;
+  align-items: center;
+}
+
+.div--popup_modal h2 {
+  margin-top: 0;
+}
+
+.div--closeModal {
+  max-width: 25rem;
+  display: flex;
+  justify-content: right;
+}
+
+.span--x {
+  font-size: 30px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+}
+
+.input--ime_pacijenta_dodaj {
+  margin: 10px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 20rem;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.input--prezime_pacijenta_dodaj {
+  margin: 10px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 20rem;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.input--jmbg_dodaj {
+  margin: 10px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 20rem;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.div--buttons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.button--dodaj {
+  margin: 10px;
+  height: 31px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button--dodaj:hover {
+  background-color: rgba(156, 166, 172, 1);
+}
+
+.button--otkazi {
+  margin: 10px;
+  height: 31px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button--otkazi:hover {
+  background-color: rgba(156, 166, 172, 1);
+}

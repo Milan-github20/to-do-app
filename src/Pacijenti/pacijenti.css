@@ -1,0 +1,31 @@
+.tabela--tabela_pacijenti {
+  display: flex;
+  flex-direction: column;
+}
+
+.tr--header_tr {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.tr--header_tr th {
+  width: 10%;
+}
+
+.hr--horizontalna_linija {
+  border: 1px solid black;
+  max-width: 95rem;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.tr--main_dio_tabele {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tr--main_dio_tabele th {
+  width: 10%;
+}
