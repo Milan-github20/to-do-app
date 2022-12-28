@@ -1,0 +1,59 @@
+.main_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.naslov p {
+  margin: 0;
+  padding: 70px 50px 10px 80px;
+  font-size: 36px;
+  margin-left: 200px;
+}
+
+div {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 1406px) {
+  .div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .naslov p {
+    padding: 20px 0px 0px 0px !important;
+    margin: 0 !important;
+    margin-top: 30px !important;
+  }
+
+  div {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .naslov p {
+    font-size: 28px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 255px) {
+  .naslov p {
+    text-align: center;
+  }
+}

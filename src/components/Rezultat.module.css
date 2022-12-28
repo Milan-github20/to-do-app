@@ -1,0 +1,108 @@
+.pretraga {
+  margin-left: 70px;
+  border-left: 1px solid #ccc;
+  padding: 0px 0px 0px 50px;
+}
+
+.thead {
+  display: flex;
+}
+
+.thead tr {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  width: 50vw;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.thead tr th {
+  font-weight: 100;
+}
+
+.pretraga tbody tr {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.pretraga tbody tr td {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pretraga tbody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.pretraga tbody tr img {
+  width: 20px;
+  height: 20px;
+}
+
+.pretraga tbody tr img:hover {
+  cursor: pointer;
+}
+
+.thead tr th {
+  width: 15%;
+}
+
+@media screen and (max-width: 1406px) {
+  .thead tr th {
+    font-weight: 100;
+    width: 20%;
+  }
+
+  .pretraga {
+    margin-top: 50px;
+    margin-left: 0;
+    border-left: none;
+    padding: 0;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .thead tr {
+    font-size: 14px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .thead tr th {
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    width: 80px;
+  }
+
+  .pretraga tbody tr {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pretraga tbody tr td {
+    margin-top: 5px;
+  }
+
+  .pretraga tbody tr img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .pretraga {
+    width: 0;
+  }
+}
